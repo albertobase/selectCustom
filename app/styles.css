@@ -23,7 +23,11 @@
 .select::-ms-expand{
 	 display: none;
 }
+.iconSelect{
+	pointer-events: none;
+}
 .iconSelect:before{
+	pointer-events: none;
 	content: "+";
 	font-size: 15px;
 	color: blue;

@@ -24,7 +24,9 @@
 	}
 }
 .iconSelect{
+	pointer-events: none;
 	&:before{
+		pointer-events: none;
 		content: "+";
 		font-size: 15px;
 		color: blue;
